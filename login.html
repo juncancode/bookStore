@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Set A Midterm</title>
+    <meta charset="utf-8" lang="en"/>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Cardo|Montserrat');
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+    .nav {
+      height: 70px;
+      background-color: #8db580;
+      width: 100%;
+      text-align: right;
+      border-bottom: 1px solid #424c55;
+      display: inline-block;
+    }
+    .nav img {
+      max-height: 70px;
+      float: left;
+    }
+    .nav a:link {
+      position: relative;
+      top: 50%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      color: #424c55;
+      text-decoration: none;
+      padding: 10px;
+      right: 10px;
+    }
+    .nav a:visited {
+      color:#e1ca96;
+    }
+    .nav a:hover {
+      text-decoration: none;
+      color: #6a8d73;
+    }
+    .content {
+      top: 70px;
+      background-color: white;
+    }
+    .content a:link {
+        text-decoration: none;
+        color: #8db580;
+    }
+    .stuff {
+      border: 1px solid darkgray;
+      padding: 50px;
+    }
+    h1 {
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 32px;
+      margin-bottom: 0px;
+      color: black;
+      text-decoration: underline;
+    text-align: center;
+    }
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
+      margin-bottom: 0px;
+    }
+
+    .slider {
+      width: 100%;
+      height: 400px;
+      overflow: hidden;
+    }
+    .slider img {
+      width: 100%;
+    }
+    .display-left {
+      left: 8px;
+      position: absolute;
+      top: 40%;
+      background-color: rgba(0, 0, 0, 0.9);
+      width: 50px;
+      height: 50px;
+      color: white;
+    }
+    .display-right {
+      right: 8px;
+      position: absolute;
+      top: 40%;
+      background-color: rgba(0, 0, 0, 0.9);
+      width: 50px;
+      height: 50px;
+      color: white;
+    }
+    input [type=submit] {
+      background-color: #8db850;
+      width: 100px;
+      height: 50px;
+      border-radius: 20px;
+    }
+
+</style>
+  </head>
+
+  <body>
+        <div class="nav">
+        <img src="logo.png" alt="logo"/>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://forum.wordreference.com/">Forums</a>
+        <a href="login.html">Login</a>
+        </div>
+
+        <div class="content">
+          <div class="stuff">
+            <h1>Login</h1><br>
+            <center><form>
+              <input type="text" pattern="(A-Za-z0-9){3,20}" required="required" autofocus="autofocus" placeholder="Username"/><br><br>
+              <input type="password" pattern="(A-Za-z0-9){8,20}" required="required" placeholder="Password"/><br><br>
+              <input type="submit" value="login"/>
+            </form>
+          </center>
+          </div>
+        </div>
+
+  </body>
+</html>
